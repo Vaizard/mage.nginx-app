@@ -17,8 +17,8 @@
 
 - name: "Ensuring /etc/nginx/snippets/mage_php.conf"
   template:
-    src: "nginx-snippets/mage_secure.conf"
-    dest: "/etc/nginx/snippets/mage_secure.conf"
+    src: "nginx-snippets/mage_php.conf"
+    dest: "/etc/nginx/snippets/mage_php.conf"
     mode: 0644
   notify: 
     - reload nginx
