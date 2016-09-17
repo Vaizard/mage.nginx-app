@@ -1,0 +1,15 @@
+---
+mage_packages:
+  - nginx
+  - php
+  - php-curl
+  - php-gd
+  - php-imap
+  - php-intl
+  - php-json
+  - php-mysql
+  - php-mbstring
+  - php-pgsql
+  - php-xml
+  - php7.0-opcache
+  - composer

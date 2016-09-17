@@ -1,0 +1,4 @@
+---
+mage_packages:
+  - www-servers/nginx
+  - dev-lang/php
