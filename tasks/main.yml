@@ -24,6 +24,7 @@
     - reload nginx
 
 - name: "Ensuring a correctly configured default site definition file is provided."
+  when: nginx_app_manage_default_site == "yes"
   template:
     src: default.j2
     dest: "/etc/nginx/sites-available/default"

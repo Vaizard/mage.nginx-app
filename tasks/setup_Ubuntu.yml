@@ -4,4 +4,6 @@
     name: "{{ mage_packages }}"
     state: latest
     update_cache: true
+  notify:
+    - restart php-fpm
 

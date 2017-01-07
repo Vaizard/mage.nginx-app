@@ -10,6 +10,8 @@ mage_packages:
   - php-mysql
   - php-mbstring
   - php-pgsql
+  - php-redis
   - php-xml
-  - php7.0-opcache
+  - php-zip
+  - php-opcache
   - composer

@@ -8,3 +8,5 @@
     newuse: yes
   with_items:
     - "{{ mage_packages }}"
+  notify:
+    - restart php-fpm
